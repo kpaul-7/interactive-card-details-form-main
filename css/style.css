@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
 :root {
-  --primary: hsl(249, 99%, 64%);
+  --primary: linear-gradient(hsl(249, 99%, 64%), hsl(278, 94%, 30%));
   --error: hsl(0, 100%, 66%);
   --border: hsl(270, 3%, 87%);
+  --darkViolate: hsl(278, 68%, 11%);
 }
 * {
   margin: 0;
@@ -78,7 +79,7 @@ body {
 }
 .one-liner-form-inputs {
   display: grid;
-  grid-template-columns: 0.6fr 0.4fr;
+  grid-template-columns: 0.5fr 0.5fr;
   align-items: center;
   justify-content: space-between;
 }
@@ -103,7 +104,7 @@ body {
   border-radius: 6px;
   font-weight: bold;
   border: none;
-  background-color: black;
+  background-color: var(--darkViolate);
   color: white;
 }
 
